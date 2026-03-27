@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dravyaguna Department - Plant Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* 🔥 Header with logos */
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+        }
+
+        .college-name {
+            flex: 1;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        .dept {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: green;
+        }
+
+        .plant-img {
+            width: 80%;
+    border-radius: 10px;
+    height: auto;
+    display: block:;
+    max-width: 300px;
+    margin:15px auto;
+    img-align : center:;
+        }
+
+        .plant-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1b5e20;
+        }
+
+        /* 🔥 Alternating rows */
+        .info-row {
+            padding: 10px;
+        }
+
+        .info-row:nth-child(odd) {
+            background: white;
+        }
+
+        .info-row:nth-child(even) {
+            background: #e8f5e9;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            font-size: 14px;
+            color: #444;
+
+        }
+
+        .highlight {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- 🌿 Header with Logos -->
+    <div class="header">
+        <img src="adamc.jpg" class="logo">
+
+        <div class="college-name">Latte Education Socity's <br>
+        	Acharya Deshabhushan Ayurved Medical College and Hospital Bedkihal and Shamanewadi 591214
+        </div>
+
+        <img src="les.jpg" class="logo">
+    </div
+    <br>
+    <br>
+    <marquee style="background-color: #2e7d32; color: #fffdd0; font-size: 20px;"> Department of Dravyaguna</marquee>
+    
+
+    <img src="https://th.bing.com/th/id/OIP.VMYukkEFlWpWK6cFgF7t-AHaE8?w=260&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Plant Image" class="plant-img">
+
+    <div class="plant-name">Tulsi (Ocimum sanctum)</div>
+
+    <!-- 🌿 Alternating Info -->
+    <div class="info">
+        <div class="info-row"><span class="highlight">Common Name:</span> Holy Basil</div>
+        <div class="info-row"><span class="highlight">Family:</span> Lamiaceae</div>
+        <div class="info-row"><span class="highlight">Habitat:</span> Grows in tropical and subtropical regions</div>
+        <div class="info-row"><span class="highlight">Uses:</span> Used in Ayurveda for cough, cold, immunity boosting</div>
+        <div class="info-row"><span class="highlight">Medicinal Properties:</span> Anti-inflammatory, antibacterial, antioxidant</div>
+    </div>
+
+    <div class="footer">
+        <p><b>Principal:</b> Dr. XYZ</p>
+        <p><b>Department:</b> Dravyaguna Department</p>
+    </div>
+
+</div>
+
+</body>
+</html>
